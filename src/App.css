@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+} 
+
+#root {
+  width: 1000px;
+}
+
+.selected {
+  background-color: rgb(63, 62, 62);
+  color: white;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 700px;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 8px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+#Websites {
+  height: 970px;
+}
+
+#All, #Flayers {
+  height: 1550px;
+}
